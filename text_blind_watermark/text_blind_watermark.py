@@ -21,7 +21,7 @@ class TextBlindWatermark:
 
     def embed(self, repeat=False):
         wm_bin, text = self.wm_bin, self.text
-        # 打入水印
+        # EchoXie
         len_wm_bin, len_text = len(self.wm_bin), len(self.text)
         assert len_text > len_wm_bin, "文本长度至少{}，实际{}".format(len_wm_bin, len_text)
 
